@@ -1,0 +1,23 @@
+[package]
+name = "maticas-api"
+version = "0.1.0"
+authors = ["Eric Kidd <git@randomhacks.net>"]
+edition = "2018"
+
+[dependencies]
+listenfd = "0.3"
+actix-rt = "1.1.1"
+actix-web = "2.0.0"
+diesel = { version = "1.4.5", features = ["postgres"] }
+futures = { version = "0.3.5", features = ["compat"] }
+juniper = "0.14.2"
+serde = { version = "1.0.114", features = ["derive"] }
+serde_derive = "1.0"
+serde_json = "1.0"
+dotenv = "0.15.0"
+env_logger = "0.7.1"
+config = "0.10.1"
+tokio-pg-mapper = "0.1.8"
+tokio-pg-mapper-derive = "0.1.5"
+deadpool-postgres = "0.5.6"
+tokio-postgres = "0.5.5"
