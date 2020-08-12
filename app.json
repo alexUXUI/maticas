@@ -4,7 +4,7 @@
     "repository": "https://github.com/alexUXUI/maticas",
     "success_url": "/",
     "keywords": ["rust", "actix", "graphql"],
-    "website": "https://thawing-earth-02563.herokuapp.com/graphiql",
+    "website": "https://calm-peak-75990.herokuapp.com/graphiql",
     "env": {
       "BUILDPACK_URL": "https://github.com/emk/heroku-buildpack-rust.git"
     }
