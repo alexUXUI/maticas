@@ -1,7 +1,7 @@
 [package]
 name = "maticas-api"
 version = "0.1.0"
-authors = ["Eric Kidd <git@randomhacks.net>"]
+authors = ["Alex Bennett <alexandergraybennett@gmail.com>"]
 edition = "2018"
 
 [dependencies]
